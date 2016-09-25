@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fXj-04-3lq">
+                    <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="rkq-bt-Da3"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_header_phone" translatesAutoresizingMaskIntoConstraints="NO" id="QbS-Eh-ak0">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="18" id="1LB-K3-OuA"/>
+                        <constraint firstAttribute="height" constant="18" id="sTj-s6-GBh"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="颜值" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ds-SE-DqP">
+                    <frame key="frameInset" minX="42" minY="18" width="35" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okF-Jc-t8g">
+                    <frame key="frameInset" minX="277" minY="15" width="41" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="Gm0-7U-VfQ"/>
+                    </constraints>
+                    <state key="normal" title="更多&gt;">
+                        <color key="titleColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="QbS-Eh-ak0" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="10" id="1gP-SA-sys"/>
+                <constraint firstItem="8ds-SE-DqP" firstAttribute="leading" secondItem="QbS-Eh-ak0" secondAttribute="trailing" constant="5" id="4pL-vZ-E36"/>
+                <constraint firstItem="fXj-04-3lq" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="5k5-Pp-uI4"/>
+                <constraint firstItem="QbS-Eh-ak0" firstAttribute="top" secondItem="fXj-04-3lq" secondAttribute="bottom" constant="11" id="Ch7-1n-mkG"/>
+                <constraint firstAttribute="bottom" secondItem="okF-Jc-t8g" secondAttribute="bottom" constant="5" id="FM9-ed-Xyl"/>
+                <constraint firstItem="okF-Jc-t8g" firstAttribute="top" secondItem="fXj-04-3lq" secondAttribute="bottom" constant="5" id="PMn-Ng-GDE"/>
+                <constraint firstAttribute="trailing" secondItem="okF-Jc-t8g" secondAttribute="trailing" constant="10" id="f4h-Iw-0cc"/>
+                <constraint firstItem="8ds-SE-DqP" firstAttribute="centerY" secondItem="QbS-Eh-ak0" secondAttribute="centerY" id="sPF-3y-S6C"/>
+                <constraint firstItem="fXj-04-3lq" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="uzZ-en-Wza"/>
+                <constraint firstAttribute="trailing" secondItem="fXj-04-3lq" secondAttribute="trailing" id="z1H-Lf-JGD"/>
+            </constraints>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="home_header_phone" width="18" height="18"/>
+    </resources>
+</document>
