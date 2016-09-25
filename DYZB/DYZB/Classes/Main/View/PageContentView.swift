@@ -20,6 +20,7 @@ class PageContentView: UIView {
     public var childVcs : [UIViewController]
     public weak var parentViewController : UIViewController?
     public var startOffsetX : CGFloat = 0
+    public var isForbidScrollDelegate : Bool = false
     public weak var delegate : PageContentDelegate?
     
     //MARK:- 懒加载属性
@@ -101,10 +102,17 @@ extension PageContentView : UICollectionViewDataSource{
 extension PageContentView : UICollectionViewDelegate{
     
     func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+        
+        isForbidScrollDelegate = false
+        
         startOffsetX = scrollView.contentOffset.x
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        
+        //0.判断是否是点击事件
+        if isForbidScrollDelegate{ return }
+        
         //1.定义获取需要的数据
         var progress : CGFloat = 0
         var sourceIndex : Int = 0
@@ -153,6 +161,11 @@ extension PageContentView : UICollectionViewDelegate{
 //MARK:- 对外暴露的方法
 extension PageContentView{
     func setCurrentIndex(currentIndex : Int) {
+        
+        //1.记录需要禁止执行代理方法
+        isForbidScrollDelegate = true
+        
+        //2.滚到正确的位置
         let offsetX = CGFloat(currentIndex) * collectionView.frame.width
         collectionView.setContentOffset(CGPoint(x : offsetX, y : 0), animated: false)
     }
