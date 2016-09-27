@@ -10,6 +10,8 @@
 		35BAD2F2D7249B45B295A941 /* Pods_DYZB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B525C4576B37F9F7B81D479 /* Pods_DYZB.framework */; };
 		4C2255151D9A3B5700F29446 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2255141D9A3B5700F29446 /* NetworkTools.swift */; };
 		4C2255181D9A8EF000F29446 /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2255171D9A8EF000F29446 /* RecommendViewModel.swift */; };
+		4C22551A1D9A9C4500F29446 /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2255191D9A9C4500F29446 /* NSDate-Extension.swift */; };
+		4C22551C1D9AA3F900F29446 /* AnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22551B1D9AA3F900F29446 /* AnchorGroup.swift */; };
 		4C2B1AD11D97EE78003BCAED /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B1ACF1D97EE78003BCAED /* CollectionHeaderView.swift */; };
 		4C2B1AD21D97EE78003BCAED /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B1AD01D97EE78003BCAED /* CollectionHeaderView.xib */; };
 		4C2B1AD61D9826A3003BCAED /* CollectionNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B1AD41D9826A3003BCAED /* CollectionNormalCell.swift */; };
@@ -27,6 +29,7 @@
 		4C4E7A141D91548D00E27ED7 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4E7A121D91548D00E27ED7 /* Live.storyboard */; };
 		4C4E7A191D9154F500E27ED7 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4E7A171D9154F500E27ED7 /* Follow.storyboard */; };
 		4C4E7A1C1D91555400E27ED7 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4E7A1A1D91555400E27ED7 /* Profile.storyboard */; };
+		4C5D20C11D9AD01E006964D9 /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D20C01D9AD01E006964D9 /* AnchorModel.swift */; };
 		4C6B4F5F1D93CC0200D6B3DE /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B4F5E1D93CC0200D6B3DE /* PageContentView.swift */; };
 		4C6B4F611D93D63800D6B3DE /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B4F601D93D63800D6B3DE /* UIColor-Extension.swift */; };
 		4CE456141D9192BE00E1B609 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE456131D9192BE00E1B609 /* Home.storyboard */; };
@@ -40,6 +43,8 @@
 		49CB132FE37A52F1CEAF304E /* Pods-DYZB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYZB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DYZB/Pods-DYZB.debug.xcconfig"; sourceTree = "<group>"; };
 		4C2255141D9A3B5700F29446 /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
 		4C2255171D9A8EF000F29446 /* RecommendViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewModel.swift; sourceTree = "<group>"; };
+		4C2255191D9A9C4500F29446 /* NSDate-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
+		4C22551B1D9AA3F900F29446 /* AnchorGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorGroup.swift; sourceTree = "<group>"; };
 		4C2B1ACF1D97EE78003BCAED /* CollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
 		4C2B1AD01D97EE78003BCAED /* CollectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionHeaderView.xib; sourceTree = "<group>"; };
 		4C2B1AD41D9826A3003BCAED /* CollectionNormalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionNormalCell.swift; sourceTree = "<group>"; };
@@ -59,6 +64,7 @@
 		4C4E7A131D91548D00E27ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DYZB/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
 		4C4E7A181D9154F500E27ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DYZB/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
 		4C4E7A1B1D91555400E27ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DYZB/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		4C5D20C01D9AD01E006964D9 /* AnchorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
 		4C6B4F5E1D93CC0200D6B3DE /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
 		4C6B4F601D93D63800D6B3DE /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		4CE456131D9192BE00E1B609 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
@@ -129,6 +135,7 @@
 			children = (
 				4C3DF77A1D9267670032B9EB /* UIBarButtonItem-Extension.swift */,
 				4C6B4F601D93D63800D6B3DE /* UIColor-Extension.swift */,
+				4C2255191D9A9C4500F29446 /* NSDate-Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -239,6 +246,8 @@
 		4CE456171D91931200E1B609 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4C22551B1D9AA3F900F29446 /* AnchorGroup.swift */,
+				4C5D20C01D9AD01E006964D9 /* AnchorModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -408,16 +417,19 @@
 				4C2B1AD11D97EE78003BCAED /* CollectionHeaderView.swift in Sources */,
 				4C6B4F611D93D63800D6B3DE /* UIColor-Extension.swift in Sources */,
 				4C4A55661D97AB1B00F92BA4 /* RecommendViewController.swift in Sources */,
+				4C22551C1D9AA3F900F29446 /* AnchorGroup.swift in Sources */,
 				4CE456191D91931200E1B609 /* MainViewController.swift in Sources */,
 				4C3DF77D1D9291390032B9EB /* PageTitleView.swift in Sources */,
 				4C6B4F5F1D93CC0200D6B3DE /* PageContentView.swift in Sources */,
 				4C3DF77B1D9267670032B9EB /* UIBarButtonItem-Extension.swift in Sources */,
 				4C3DF77F1D929C720032B9EB /* Common.swift in Sources */,
 				4C2B1ADA1D98362A003BCAED /* CollectionPrettyCell.swift in Sources */,
+				4C22551A1D9A9C4500F29446 /* NSDate-Extension.swift in Sources */,
 				4C2B1AD61D9826A3003BCAED /* CollectionNormalCell.swift in Sources */,
 				4C2255151D9A3B5700F29446 /* NetworkTools.swift in Sources */,
 				4CE4561B1D91938E00E1B609 /* HomeViewController.swift in Sources */,
 				4C2255181D9A8EF000F29446 /* RecommendViewModel.swift in Sources */,
+				4C5D20C11D9AD01E006964D9 /* AnchorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
