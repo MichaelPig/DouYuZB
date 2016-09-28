@@ -14,7 +14,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="194" height="235"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6B-G3-9FL">
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6B-G3-9FL">
                         <constraints>
                             <constraint firstAttribute="height" constant="14" id="6Um-nD-lyl"/>
                         </constraints>
@@ -39,38 +39,45 @@
                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                         </userDefinedRuntimeAttributes>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6666在线" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kjb-JA-qQp">
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="viR-YB-PJb">
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="20" id="MZB-oQ-dk9"/>
-                            <constraint firstAttribute="width" constant="60" id="lds-iV-Qq6"/>
+                            <constraint firstAttribute="height" constant="20" id="8Ga-Ck-hxo"/>
+                            <constraint firstAttribute="width" constant="60" id="Xe4-HF-2CV"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <nil key="highlightedColor"/>
+                        <state key="normal" title="6666在线">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                 <integer key="value" value="3"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                         </userDefinedRuntimeAttributes>
-                    </label>
+                    </button>
                 </subviews>
             </view>
             <constraints>
                 <constraint firstItem="HK9-kI-tbv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="899-lE-RVq"/>
                 <constraint firstItem="7Hk-bY-tUt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="DqO-uz-iJb"/>
-                <constraint firstAttribute="trailing" secondItem="kjb-JA-qQp" secondAttribute="trailing" constant="5" id="QSq-mK-qJM"/>
                 <constraint firstAttribute="trailing" secondItem="7Hk-bY-tUt" secondAttribute="trailing" id="StO-rh-EaW"/>
                 <constraint firstItem="7Hk-bY-tUt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="TQh-Gm-8XJ"/>
                 <constraint firstItem="e6B-G3-9FL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="b96-xO-kL0"/>
                 <constraint firstAttribute="trailing" secondItem="HK9-kI-tbv" secondAttribute="trailing" constant="5" id="nfN-Vn-E1g"/>
                 <constraint firstItem="HK9-kI-tbv" firstAttribute="top" secondItem="7Hk-bY-tUt" secondAttribute="bottom" constant="5" id="oLf-Jk-ZU0"/>
+                <constraint firstItem="viR-YB-PJb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="pux-cN-Bnj"/>
                 <constraint firstAttribute="bottom" secondItem="e6B-G3-9FL" secondAttribute="bottom" constant="10" id="qHi-kV-Z87"/>
-                <constraint firstItem="kjb-JA-qQp" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="sFS-9g-bSL"/>
                 <constraint firstItem="e6B-G3-9FL" firstAttribute="top" secondItem="HK9-kI-tbv" secondAttribute="bottom" constant="5" id="sQ0-At-ZGg"/>
+                <constraint firstAttribute="trailing" secondItem="viR-YB-PJb" secondAttribute="trailing" constant="8" id="zXz-QF-vjZ"/>
             </constraints>
             <size key="customSize" width="194" height="235"/>
+            <connections>
+                <outlet property="cityBtn" destination="e6B-G3-9FL" id="ZEO-9U-tE3"/>
+                <outlet property="iconImageView" destination="7Hk-bY-tUt" id="sLV-Bo-mnA"/>
+                <outlet property="nickNameLabel" destination="HK9-kI-tbv" id="wAl-qd-c69"/>
+                <outlet property="onlineBtn" destination="viR-YB-PJb" id="wWa-2t-Wtm"/>
+            </connections>
             <point key="canvasLocation" x="97" y="144.5"/>
         </collectionViewCell>
     </objects>

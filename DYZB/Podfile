@@ -8,5 +8,6 @@ target 'DYZB' do
   # Pods for DYZB
 
 pod ‘Alamofire’, ‘4.0’
+pod ‘Kingfisher’
 
 end

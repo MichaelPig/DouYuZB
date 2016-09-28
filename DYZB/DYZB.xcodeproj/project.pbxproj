@@ -32,6 +32,7 @@
 		4C5D20C11D9AD01E006964D9 /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D20C01D9AD01E006964D9 /* AnchorModel.swift */; };
 		4C6B4F5F1D93CC0200D6B3DE /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B4F5E1D93CC0200D6B3DE /* PageContentView.swift */; };
 		4C6B4F611D93D63800D6B3DE /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B4F601D93D63800D6B3DE /* UIColor-Extension.swift */; };
+		4C8F9B931D9C00E600822242 /* CollectionBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F9B921D9C00E600822242 /* CollectionBaseCell.swift */; };
 		4CE456141D9192BE00E1B609 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE456131D9192BE00E1B609 /* Home.storyboard */; };
 		4CE456191D91931200E1B609 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE456161D91931200E1B609 /* MainViewController.swift */; };
 		4CE4561B1D91938E00E1B609 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4561A1D91938E00E1B609 /* HomeViewController.swift */; };
@@ -67,6 +68,7 @@
 		4C5D20C01D9AD01E006964D9 /* AnchorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
 		4C6B4F5E1D93CC0200D6B3DE /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
 		4C6B4F601D93D63800D6B3DE /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		4C8F9B921D9C00E600822242 /* CollectionBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionBaseCell.swift; sourceTree = "<group>"; };
 		4CE456131D9192BE00E1B609 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		4CE456161D91931200E1B609 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4CE4561A1D91938E00E1B609 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -261,6 +263,7 @@
 				4C2B1AD51D9826A3003BCAED /* CollectionNormalCell.xib */,
 				4C2B1AD81D98362A003BCAED /* CollectionPrettyCell.swift */,
 				4C2B1AD91D98362A003BCAED /* CollectionPrettyCell.xib */,
+				4C8F9B921D9C00E600822242 /* CollectionBaseCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 				4C3DF77F1D929C720032B9EB /* Common.swift in Sources */,
 				4C2B1ADA1D98362A003BCAED /* CollectionPrettyCell.swift in Sources */,
 				4C22551A1D9A9C4500F29446 /* NSDate-Extension.swift in Sources */,
+				4C8F9B931D9C00E600822242 /* CollectionBaseCell.swift in Sources */,
 				4C2B1AD61D9826A3003BCAED /* CollectionNormalCell.swift in Sources */,
 				4C2255151D9A3B5700F29446 /* NetworkTools.swift in Sources */,
 				4CE4561B1D91938E00E1B609 /* HomeViewController.swift in Sources */,
