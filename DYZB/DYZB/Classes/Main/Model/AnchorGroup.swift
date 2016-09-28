@@ -28,6 +28,9 @@ class AnchorGroup: NSObject {
     //定义主播的模型对象数组
     public lazy var anchors : [AnchorModel] = [AnchorModel]()
     
+    //MARK:- 构造函数
+    override init(){}
+    
     init(dict : [String : NSObject]) {
         super.init()
         
