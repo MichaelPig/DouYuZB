@@ -23,16 +23,19 @@
                     </collectionViewFlowLayout>
                     <connections>
                         <outlet property="dataSource" destination="iN0-l3-epB" id="qMY-fp-R6X"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="AOS-Dp-BzH"/>
                     </connections>
                 </collectionView>
-                <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="1NY-9U-OVw">
-                    <frame key="frameInset" minX="326" minY="113" width="39" height="37"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="1NY-9U-OVw">
                     <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <color key="currentPageIndicatorTintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                 </pageControl>
             </subviews>
             <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="1NY-9U-OVw" secondAttribute="trailing" constant="5" id="QUt-OZ-Ipc"/>
+                <constraint firstAttribute="bottom" secondItem="1NY-9U-OVw" secondAttribute="bottom" constant="-10" id="aFh-0r-pvV"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="collectionView" destination="lvC-up-AWF" id="As7-ep-oj6"/>

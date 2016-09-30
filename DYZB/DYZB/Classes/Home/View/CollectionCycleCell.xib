@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionCycleCell" customModule="DYZB" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="246" height="183"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="246" height="183"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Img_default" translatesAutoresizingMaskIntoConstraints="NO" id="wUH-G7-kWq"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nHQ-vB-ftg">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="社会我逼哥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LGp-cg-0KN">
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LGp-cg-0KN" firstAttribute="leading" secondItem="nHQ-vB-ftg" secondAttribute="leading" constant="15" id="LpV-RG-fj7"/>
+                            <constraint firstAttribute="height" constant="30" id="tSU-sj-w4d"/>
+                            <constraint firstItem="LGp-cg-0KN" firstAttribute="centerY" secondItem="nHQ-vB-ftg" secondAttribute="centerY" id="xda-uq-cbC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="nHQ-vB-ftg" secondAttribute="bottom" id="5hU-Se-S5u"/>
+                <constraint firstItem="wUH-G7-kWq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="FrA-JA-F9g"/>
+                <constraint firstAttribute="bottom" secondItem="wUH-G7-kWq" secondAttribute="bottom" id="HpU-1l-Es3"/>
+                <constraint firstItem="nHQ-vB-ftg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Znz-Am-XSZ"/>
+                <constraint firstItem="wUH-G7-kWq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="b7F-bv-IU7"/>
+                <constraint firstAttribute="trailing" secondItem="wUH-G7-kWq" secondAttribute="trailing" id="pDI-7C-pTe"/>
+                <constraint firstAttribute="trailing" secondItem="nHQ-vB-ftg" secondAttribute="trailing" id="tnq-Tl-q0R"/>
+            </constraints>
+            <size key="customSize" width="246" height="183"/>
+            <connections>
+                <outlet property="iconImageView" destination="wUH-G7-kWq" id="qmB-Ho-XIp"/>
+                <outlet property="titleLabel" destination="LGp-cg-0KN" id="abK-Ca-k1c"/>
+            </connections>
+            <point key="canvasLocation" x="12" y="-40.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Img_default" width="172" height="103"/>
+    </resources>
+</document>
