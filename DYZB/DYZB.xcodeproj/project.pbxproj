@@ -40,6 +40,8 @@
 		4C97E9251D9E97510028F5C8 /* CycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C97E9241D9E97510028F5C8 /* CycleModel.swift */; };
 		4C97E92A1D9E9E190028F5C8 /* CollectionCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C97E9281D9E9E190028F5C8 /* CollectionCycleCell.swift */; };
 		4C97E92B1D9E9E190028F5C8 /* CollectionCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C97E9291D9E9E190028F5C8 /* CollectionCycleCell.xib */; };
+		4CD26BBB1D9F6847003E9395 /* CollectionGameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD26BB91D9F6847003E9395 /* CollectionGameCell.swift */; };
+		4CD26BBC1D9F6847003E9395 /* CollectionGameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CD26BBA1D9F6847003E9395 /* CollectionGameCell.xib */; };
 		4CE456141D9192BE00E1B609 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE456131D9192BE00E1B609 /* Home.storyboard */; };
 		4CE456191D91931200E1B609 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE456161D91931200E1B609 /* MainViewController.swift */; };
 		4CE4561B1D91938E00E1B609 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4561A1D91938E00E1B609 /* HomeViewController.swift */; };
@@ -83,6 +85,8 @@
 		4C97E9241D9E97510028F5C8 /* CycleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleModel.swift; sourceTree = "<group>"; };
 		4C97E9281D9E9E190028F5C8 /* CollectionCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCycleCell.swift; sourceTree = "<group>"; };
 		4C97E9291D9E9E190028F5C8 /* CollectionCycleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCycleCell.xib; sourceTree = "<group>"; };
+		4CD26BB91D9F6847003E9395 /* CollectionGameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionGameCell.swift; sourceTree = "<group>"; };
+		4CD26BBA1D9F6847003E9395 /* CollectionGameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionGameCell.xib; sourceTree = "<group>"; };
 		4CE456131D9192BE00E1B609 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		4CE456161D91931200E1B609 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4CE4561A1D91938E00E1B609 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -253,6 +257,8 @@
 				4C97E9291D9E9E190028F5C8 /* CollectionCycleCell.xib */,
 				4C08634C1D9F56680024A1DD /* RecommendGameView.swift */,
 				4C08634E1D9F567F0024A1DD /* RecommendGameView.xib */,
+				4CD26BB91D9F6847003E9395 /* CollectionGameCell.swift */,
+				4CD26BBA1D9F6847003E9395 /* CollectionGameCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -376,6 +382,7 @@
 				4C2D952E1D910AAD00DC4FEE /* Assets.xcassets in Resources */,
 				4C2D952C1D910AAD00DC4FEE /* Main.storyboard in Resources */,
 				4C4E7A141D91548D00E27ED7 /* Live.storyboard in Resources */,
+				4CD26BBC1D9F6847003E9395 /* CollectionGameCell.xib in Resources */,
 				4C4C50EC1D9CEE250090D2AC /* RecommendCycleView.xib in Resources */,
 				4C97E92B1D9E9E190028F5C8 /* CollectionCycleCell.xib in Resources */,
 				4C2B1ADB1D98362A003BCAED /* CollectionPrettyCell.xib in Resources */,
@@ -458,6 +465,7 @@
 				4C22551A1D9A9C4500F29446 /* NSDate-Extension.swift in Sources */,
 				4C8F9B931D9C00E600822242 /* CollectionBaseCell.swift in Sources */,
 				4C2B1AD61D9826A3003BCAED /* CollectionNormalCell.swift in Sources */,
+				4CD26BBB1D9F6847003E9395 /* CollectionGameCell.swift in Sources */,
 				4C2255151D9A3B5700F29446 /* NetworkTools.swift in Sources */,
 				4CE4561B1D91938E00E1B609 /* HomeViewController.swift in Sources */,
 				4C2255181D9A8EF000F29446 /* RecommendViewModel.swift in Sources */,
